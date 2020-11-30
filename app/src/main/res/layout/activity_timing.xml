@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout"
+    tools:context=".TimingActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        app:title="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:elevation="15dp"
+        android:layout_below="@id/my_toolbar"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timing_title"
+            android:text="Store Timing"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timing_title"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/mon"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/black"
+                android:text="Monday"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/montime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/mon"
+                android:fontFamily="@font/michroma"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingHorizontal="10dp"
+                android:text="10 am - 7 pm"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timing_title"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/tue"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/black"
+                android:text="Tuesday"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tuetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/tue"
+                android:fontFamily="@font/michroma"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingHorizontal="10dp"
+                android:text="10 am - 7 pm"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timing_title"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/wed"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/black"
+                android:text="Wednesday"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/wedtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/wed"
+                android:fontFamily="@font/michroma"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingHorizontal="10dp"
+                android:text="10 am - 7 pm"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timing_title"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/thur"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/black"
+                android:text="Thurdsay"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/thurtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/thur"
+                android:fontFamily="@font/michroma"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingHorizontal="10dp"
+                android:text="10 am - 7 pm"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timing_title"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/fri"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/black"
+                android:text="Friday"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/fritime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/fri"
+                android:fontFamily="@font/michroma"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingHorizontal="10dp"
+                android:text="10 am - 7 pm"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timing_title"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/sat"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/black"
+                android:text="Saturday"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/sattime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/sat"
+                android:fontFamily="@font/michroma"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingHorizontal="10dp"
+                android:text="10 am - 7 pm"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timing_title"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:id="@+id/sun"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:paddingHorizontal="10dp"
+                android:textColor="@color/black"
+                android:text="Sunday"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/suntime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/sun"
+                android:fontFamily="@font/michroma"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingHorizontal="10dp"
+                android:text="10 am - 7 pm"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

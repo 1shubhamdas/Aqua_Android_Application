@@ -1,0 +1,243 @@
+{
+  "Admins" : {
+    "s01" : {
+      "email" : "1shubhamdas@gmail.com",
+      "id" : "s01",
+      "name" : "Shubham Das",
+      "password" : 12345
+    }
+  },
+  "Users" : {
+    "LBRRhPplmaRKRKLAIpGvJmekogu2" : {
+      "address" : "New Panvel",
+      "amount" : "400",
+      "daydate" : "12",
+      "email" : "dasshubham@gmail.com",
+      "feedback" : "hi, is the store open?",
+      "id" : "LBRRhPplmaRKRKLAIpGvJmekogu2",
+      "month" : "August",
+      "name" : "Shubham Das",
+      "order" : "Red Tail Shark",
+      "phone" : "+918888829014",
+      "rating" : "0.0",
+      "time" : "5 pm - 6 pm"
+    },
+    "uiPAODOPG4WnJ67iJjVmkouH9GC2" : {
+      "address" : "New Panvel",
+      "amount" : "38000",
+      "daydate" : "4",
+      "email" : "surdas95@gmail.com",
+      "feedback" : "",
+      "id" : "uiPAODOPG4WnJ67iJjVmkouH9GC2",
+      "month" : "November",
+      "name" : "Suranjan Das",
+      "order" : "Super Jet Filter ES-1200 Series",
+      "phone" : "9822472922",
+      "rating" : "4.0",
+      "time" : "5 pm - 6 pm"
+    }
+  },
+  "mFilterDatabase" : {
+    "ps1" : {
+      "description" : "Ideal for aquariums up to 37.8 L.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Marina%20Bottom%20Filter.jpg?alt=media&token=094abd39-6259-427a-aa04-3b109a819b24",
+      "price" : "220",
+      "title" : "Marina Bottom Filter"
+    },
+    "ps2" : {
+      "description" : "Fish External Filters Marina Marina Crystal Filo 20 External 3.25 kg This item is being supplied from continental Europe.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/marina%20cf40%20canister%20filter.jpg?alt=media&token=4e4362c4-912a-4385-94b6-827bbf343cc3",
+      "price" : "8931",
+      "title" : "Marina cf40 canister filter"
+    },
+    "ps3" : {
+      "description" : "Multi-stage filter pumps out an astounding 3500 L (925 US Gal) of water per hour.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Fluval%20FX6%20External%20Canister%20Filter.jpg?alt=media&token=6d0a3f85-d373-4783-afdb-ab77981f7b53",
+      "price" : "19999",
+      "title" : "Fluval FX6 External Canister Filter"
+    },
+    "ps4" : {
+      "description" : "Fluval eTEC (Efficient Technology) construction employs cutting-edge design, materials & manufacturing methods to deliver powerful pump performance, reduced energy consumption & ultra-quiet operation.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Fluval%20107%20External%20Canister%20Filter.jpg?alt=media&token=af810ded-ea76-4b5f-a8f4-d15dc4a689d9",
+      "price" : "7999",
+      "title" : "Fluval 107 External Canister Filter"
+    },
+    "ps5" : {
+      "description" : "Extensive 5-stage filter produces clean, clear and healthy water for aquarium life to thrive.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Fluval%20C4%20Hang-On%20Power%20Filter.jpg?alt=media&token=ea3c19c5-8a8c-4967-92a2-2b09a61aacc9",
+      "price" : "5800",
+      "title" : "Fluval C4 Hang-On Power Filter"
+    },
+    "ps6" : {
+      "description" : "With a robust stainless steel body, Super Jet Filter ES-600 is a highly designed canister filter system.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Super%20Jet%20Filter%20ES-600%20Series.jpg?alt=media&token=ba8e75e9-9a4f-48cf-bd2b-9ad732d4265d",
+      "price" : "28000",
+      "title" : "Super Jet Filter ES-600 Series"
+    },
+    "ps7" : {
+      "description" : "Super Jet Filter ES-1200 is a canister filtration system for aquariums from W90xD45xH60(cm) to W120xD45xH60(cm). ES-1200EX and ES-1200EX2 hold a larger volume of filtration media, and they are suitable for handling heavy filtration.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Super%20Jet%20Filter%20ES-1200%20Series.jpg?alt=media&token=cc71f6e1-5560-4446-b871-63ba025f3660",
+      "price" : "38000",
+      "title" : "Super Jet Filter ES-1200 Series"
+    }
+  },
+  "mFishDatabase" : {
+    "ps2" : {
+      "description" : "Another stunning cichlid variety is the Jewel Cichlid. It comes in colors ranging from red to dark purple and has a black spot on the center of its body.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Jewel%20Cichlid.jpg?alt=media&token=b7b2545e-e622-4b96-b007-f21c4b0e5bd6",
+      "price" : "350",
+      "title" : "Jewel Cichlid"
+    },
+    "ps3" : {
+      "description" : "These fish earn their name by growing to only about two inches long. They come in a lot of different colors but males usually have a bright orange-red body with bright blue fins.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Dwarf%20Gourami.jpg?alt=media&token=07142c14-2bce-484e-ba65-95bcef3501b4",
+      "price" : "300",
+      "title" : "Dwarf Gourami"
+    },
+    "ps4" : {
+      "description" : "Neon Tetras may be small but they make up for it bright, eye-catching pops of color.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Neontetra.jpg?alt=media&token=5675d25c-6101-46aa-a724-47d795d3dc68",
+      "price" : "150",
+      "title" : "Neon Tetra"
+    },
+    "ps5" : {
+      "description" : "Most of the other fish on our list were chosen for their bright colors or interesting patterns. The glassfish is a little bit different.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Glassfish.jpg?alt=media&token=17833475-5913-4eb1-8370-c1ccfe07958c",
+      "price" : "600",
+      "title" : "Glassfish"
+    },
+    "ps6" : {
+      "description" : "Red Tail Sharks have a deep black body with bright red tail fins that really give them an exotic look.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Red%20Tail%20Shark.jpg?alt=media&token=ec924dc4-0f79-4350-b4a9-1971eedb90b5",
+      "price" : "400",
+      "title" : "Red Tail Shark"
+    },
+    "ps7" : {
+      "description" : "Freshwater angelfish are probably one of the most recognizable fish species and for good reason.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Angelfish.jpg?alt=media&token=d5caae51-97f5-417d-ae47-72901280f362",
+      "price" : "500",
+      "title" : "Angelfish"
+    }
+  },
+  "mMaintainDatabase" : {
+    "ps1" : {
+      "address" : "New Panvel",
+      "name" : "Shubham Das",
+      "phone" : 8888829014
+    }
+  },
+  "mOtherDatabase" : {
+    "ps2" : {
+      "description" : "Amazonia Ver.2 uses black soil for a raw material and it stands out against the leaf color of aquatic plants, and also includes Amazonia Supplement to enrich nutrients.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Ada%20Aquasoil%20Amazonia%20Version%202%209L%20Aqua%20Soil%20Planted%20Substrate%20%20(Black%2C%209%20kg).jpg?alt=media&token=67dff91a-6a45-49ac-a872-75e98822ced4",
+      "price" : "2750",
+      "title" : "Ada Aquasoil Amazonia Version 2 9L Aqua Soil Planted Substrate  (Black, 9 kg)"
+    },
+    "ps3" : {
+      "description" : "Aquarium Pharmaceuticals Leaf Zone Liquid Plant Fertilizer",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/API%20Aquarium%20Pharmaceuticals%20Leaf%20Zone%20Liquid%20Plant%20Fertilizer%2C%208%20oz.jpg?alt=media&token=b461285e-6c43-4dfb-84f7-b24b7a0b7ca2",
+      "price" : "850",
+      "title" : "API Aquarium Pharmaceuticals Leaf Zone Liquid Plant Fertilizer, 8 oz"
+    },
+    "ps4" : {
+      "description" : "Nitrogen rich fertilizer",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Seachem%20Flourish%2C%20500ml.jpg?alt=media&token=17381a23-75c9-4975-b681-ec889387db69",
+      "price" : "1280",
+      "title" : "Seachem Flourish, 500ml"
+    },
+    "ps5" : {
+      "description" : "ADA AQUASKY361 use for 36cm Wide Aquarium, Glass thickness 5mm",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/ADA%20Nature%20Aquarium%20AQUASKY%20361.jpg?alt=media&token=7e6c729b-0f72-4cb3-8778-b16370fff0dd",
+      "price" : "45000",
+      "title" : "ADA Nature Aquarium AQUASKY 361"
+    },
+    "ps6" : {
+      "description" : "Power effecient high output LED for planted aquarium.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/SUNSUN%20Planted%20Tank%20LED%20Light%20(36-42%20Inch).jpg?alt=media&token=1d13378d-a511-4e1b-9593-ee394a4804fb",
+      "price" : "8000",
+      "title" : "SUNSUN Planted Tank LED Light (36-42 Inch)"
+    },
+    "ps7" : {
+      "description" : "Sunsun Ade 300C LED Light",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Sunsun%20Ade%20300c%20LED%20Light%20for%20Aquarium.jpg?alt=media&token=9f9e72af-8329-439e-9427-0c72d8b34898",
+      "price" : "1900",
+      "title" : "Sunsun Ade 300c LED Light for Aquarium"
+    },
+    "ps8" : {
+      "description" : "Liquid Fertilizers has all the required minerals for the plants to grow",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Liquid%20Fertilizers.jpg?alt=media&token=550ea88f-80ad-45f0-85b0-398eba6226f4",
+      "price" : "5000",
+      "title" : "ADA Liquid Fertilizers"
+    }
+  },
+  "mPlantsDatabase" : {
+    "ps1" : {
+      "description" : "Anubias Nana Pangolino is a rare variant of Anubias that is quickly gaining popularity within the aquarium hobby for its tiny leaf size.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Anubias%20Nana%20Pangolino.jpg?alt=media&token=392b01b4-8af8-4bb6-8fd0-226f8a38e0bf",
+      "price" : "2200",
+      "title" : "Anubias Nana Pangolino"
+    },
+    "ps2" : {
+      "description" : "Anubias Nana Pinto, also known as Anubias Nana Marbled White or White is a variant of the commonly seen Anubias species.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Anubias%20Nana%20Pinto.jpg?alt=media&token=395f3dce-9c28-41de-aec3-e92f9d825aec",
+      "price" : "2200",
+      "title" : "Anubias Nana Pinto"
+    },
+    "ps3" : {
+      "description" : "Piptospatha Ridleyi is a rare species of Aroid that belongs to the same family as Cryptocorynes, Bucephalandra and Homalomena.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Piptospatha%20Ridleyi.jpg?alt=media&token=43802d5f-f3f5-41c8-83a4-442c832f413a",
+      "price" : "1020",
+      "title" : "Piptospatha Ridleyi"
+    },
+    "ps4" : {
+      "description" : "Anubias Nana Variegated, also known as Anubias Nana Marbled White, Anubias Pinto, Anubias Nana Pinto or White is a variant of the commonly seen Anubias species.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Anubias%20Nana%20Variegated.jpg?alt=media&token=e22edf39-51f2-493b-9f1e-b56ea641d974",
+      "price" : "1690",
+      "title" : "Anubias Nana Variegated"
+    },
+    "ps5" : {
+      "description" : "Bucephalandra Claudia is characterized by bright green ruffled leaves. It has slightly wider leaves when compared to the popular Bucephalandra Green Wavy but is similar in size.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Bucephalandra%20Claudia.jpg?alt=media&token=9c7c6f8f-535f-41e7-9d51-529901e25321",
+      "price" : "1450",
+      "title" : "Bucephalandra Claudia"
+    },
+    "ps6" : {
+      "description" : "Homalomena Sungai is part of a rare family of flowering aquatic plants within the same realm as Bucephalandra and Aridarum.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Homalomena%20Sungai.jpg?alt=media&token=8f457392-76f3-46bb-b62a-8a4d34f231e0",
+      "price" : "1100",
+      "title" : "Homalomena Sungai"
+    },
+    "ps7" : {
+      "description" : "Ludwigia Sedioides, commonly known as Mosaic Plant or Floating Ludwigia is a beautiful floating aquatic plant that is found in freshwater indoor or outdoor ponds.",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/Ludwigia%20Sedioides.jpg?alt=media&token=6fece4e6-ac7a-44f9-80f9-580c4de81812",
+      "price" : "735",
+      "title" : "Ludwigia Sedioides"
+    }
+  },
+  "mTankDatabase" : {
+    "ps1" : {
+      "description" : "Cube Garden 30-P",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/ADA%20Transparent%20Glass%20Aquarium-%20Cube%20Garden.jpg?alt=media&token=683d7891-f437-4251-bd93-aea7bd6e482b",
+      "price" : "6800",
+      "title" : "ADA Transparent Glass Aquarium: Cube Garden"
+    },
+    "ps2" : {
+      "description" : "Cube Garden Superior 60-P",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/ADA%20CUBE%20GARDEN%2060-P.jpg?alt=media&token=7183eabd-9292-404d-9bc4-e211bebd39b9",
+      "price" : "20000",
+      "title" : "ADA Transparent Glass Aquarium:Cube Garden Mist"
+    },
+    "ps3" : {
+      "description" : "Cube Garden 90-P",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/ADA%20Transparent%20Glass%20Aquarium-%20Cube%20Garden%20Superior.jpg?alt=media&token=142351c6-aae2-4b59-81c5-a37dcce2f925",
+      "price" : "40000",
+      "title" : "ADA Transparent Glass Aquarium:Cube Garden Superior"
+    },
+    "ps4" : {
+      "description" : "Cube Garden Superior 120-P",
+      "image" : "https://firebasestorage.googleapis.com/v0/b/fyproject-5dacf.appspot.com/o/ADA%20Transparent%20Glass%20Aquarium-%20Cube%20Garden%20Superior%20Mist.jpg?alt=media&token=e17521d8-92f8-4093-8df2-b19f4f12965b",
+      "price" : "60000",
+      "title" : "ADA Transparent Glass Aquarium: Cube Garden Superior Mist"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/search_view"
+    tools:context=".FeedbackFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Share your query"
+        android:textAlignment="center"
+        android:elevation="5dp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-black"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:id="@+id/scroll_view"
+        android:layout_below="@+id/textView"
+        android:layout_above="@+id/bottombar"
+        android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:padding="16dp"
+        android:id="@+id/linear"
+        android:elevation="14dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enquiry"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="How may I help you?"/>
+
+
+        <EditText
+            android:id="@+id/query"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:hint="Type your questions here..."
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rating"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Rate your experience"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

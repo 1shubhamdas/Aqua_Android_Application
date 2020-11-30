@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/layout"
+    tools:context=".DetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        app:title="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/image_details"
+                android:padding="5dp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_details"
+                android:text="Post Title"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rs"
+                    android:textColor="@color/green"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="Rs "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price_details"
+                    android:text=""
+                    android:textColor="@color/green"
+                    android:textAppearance="?android:textAppearanceMedium"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/slash"
+                    android:textColor="@color/green"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:text="/-"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buy_details"
+                android:text="Buy Now"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:background="@color/orange"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/predescription_details"
+                android:text="Description:"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/description_details"
+                android:text="Post Description"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

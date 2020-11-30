@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp"
+    android:elevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageView"
+            android:layout_marginTop="5dp"
+            android:layout_height="150dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:text="Title"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rs"
+                android:textColor="@color/green"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="Rs "/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/price"
+                android:text=""
+                android:maxLines="1"
+                android:textColor="@color/green"
+                android:textAppearance="?android:textAppearanceSmall"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/slash"
+                android:textColor="@color/green"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:text="/-"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:text="Description"
+            android:maxLines="5"
+            android:textColor="@color/black"
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

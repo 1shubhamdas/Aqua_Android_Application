@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/home"
+        android:title="Shop"
+        android:icon="@drawable/fish"
+        app:showAsAction="always"/>
+    <item android:id="@+id/feedback"
+        android:icon="@drawable/message"
+        app:showAsAction="always"
+        android:title="Say Something"/>
+    <item android:id="@+id/profile"
+        android:title="Maintenance"
+        android:icon="@drawable/maintainance"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:padding="5dp"
+            android:text="Name"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:padding="5dp"
+            android:text="Address"
+            android:maxLines="3"
+            android:textColor="@color/black"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"
+            android:padding="5dp"
+            android:text="Phone Number"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/daydate"
+                android:padding="5dp"
+                android:text="Day Date"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textAppearance="?android:textAppearanceMedium"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/month"
+                android:padding="5dp"
+                android:text="Month"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/time"
+                android:padding="5dp"
+                android:text="Time"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textAppearance="?android:textAppearanceMedium"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

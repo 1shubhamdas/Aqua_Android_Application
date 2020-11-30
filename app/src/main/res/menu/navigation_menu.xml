@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_about"
+        android:checkableBehavior="single">
+        <item android:id="@+id/about"
+            android:title="About"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_timing"
+        android:checkableBehavior="single">
+        <item android:id="@+id/timing"
+            android:title="Store Timing"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_account"
+        android:checkableBehavior="single">
+        <item android:id="@+id/account"
+            android:title="Account"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_logout"
+        android:checkableBehavior="single">
+        <item android:id="@+id/logout"
+            android:title="Logout"/>
+    </group>
+
+</menu>

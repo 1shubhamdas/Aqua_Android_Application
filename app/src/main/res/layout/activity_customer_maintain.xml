@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout"
+    android:orientation="vertical"
+    tools:context=".CustomerMaintainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        app:title="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customer_details"
+            android:text="Customer Details:"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customer_name"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customer_address"
+            android:text="Address"
+            android:textColor="@color/black"
+            android:maxLines="5"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customer_phone"
+            android:text="Phone"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customer_time"
+            android:text="Time"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customer_daydate"
+            android:text="Day date"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customer_month"
+            android:text="Month"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+    </LinearLayout>
+
+</LinearLayout>
